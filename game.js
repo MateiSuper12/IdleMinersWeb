@@ -66,4 +66,28 @@ function sellAll() {
 
   saveGame();
 }
+function updateUI() {
 
+  document.getElementById(
+    "coins"
+  ).textContent = game.coins;
+
+  document.getElementById(
+    "coal"
+  ).textContent = game.coal;
+
+  document.getElementById(
+    "xp"
+  ).textContent = game.xp;
+
+  document.getElementById(
+    "level"
+  ).textContent = game.level;
+}
+loadGame();
+updateUI();
+
+setInterval(
+  saveGame,
+  30000
+);
