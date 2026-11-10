@@ -22,7 +22,7 @@ A browser-based idle mining game inspired by Idle Miner mechanics.
 
 ## Play Online
 
-https://mateisuper12.github.io/IdleMinersWeb/
+[https://mateisuper12.github.io/IdleMinersWeb/](https://mateisuper12.github.io/IdleMinersWeb/)
 
 ## License
 
